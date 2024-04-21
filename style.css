@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  #background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://p0.pxfuel.com/preview/38/550/343/blocks-letters-alphabet-education.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    z-index: -1; /* Asegura que esté detrás de todo */
+    opacity: 0.5; 
+  }
+  
+  #container {
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+  
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0CBABA;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  #guess-button:active {
+    transform: scale(0.95);
+  }
+  
+  .letter {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  .row {
+    margin-bottom: 10px;
+  }
+  
+  .input-area {
+    margin: 30px;
+  }
+ 
